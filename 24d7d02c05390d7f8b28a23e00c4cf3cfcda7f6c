@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0362a555_fdbbb824",
+        "filename": "ansible-role-collectd-config.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2021-02-09T17:15:11Z",
+      "side": 1,
+      "message": "I think the issues is that the git repo is called collectd-config-ansible-role, but the package is ansible-role-collectd-config. I took another look at the logs, and it appears that the repo is downloaded as ansible-role-collectd-config-0.0.1, so the %prep section tries to run, and can\u0027t find collectd-config-ansible-role-%{upstream_version}, because it has a different name.",
+      "range": {
+        "startLine": 24,
+        "startChar": 1,
+        "endLine": 24,
+        "endChar": 69
+      },
+      "revId": "24d7d02c05390d7f8b28a23e00c4cf3cfcda7f6c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
