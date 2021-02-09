@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a8b9da55_0704118f",
+        "filename": "ansible-role-collectd-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2021-02-09T14:27:11Z",
+      "side": 1,
+      "message": "the spec file name must match the name here.",
+      "revId": "3d72b54c0c033b96503986534664e13f7d7c5d8b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f2ee8cd8_ea27ca6b",
+        "filename": "ansible-role-collectd-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2021-02-09T14:27:11Z",
+      "side": 1,
+      "message": "group is deprecated, just remove it please.",
+      "revId": "3d72b54c0c033b96503986534664e13f7d7c5d8b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "44a9481c_14ff1672",
+        "filename": "ansible-role-collectd-config.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2021-02-09T14:27:11Z",
+      "side": 1,
+      "message": "unfortunately, this gives a 404",
+      "revId": "3d72b54c0c033b96503986534664e13f7d7c5d8b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
