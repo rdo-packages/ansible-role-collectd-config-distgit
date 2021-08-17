@@ -2,6 +2,9 @@
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
+%{?dlrn: %global tarsources ansible-role-collectd-config}
+%{!?dlrn: %global tarsources collectd-config-ansible-role}
+
 Name:           ansible-role-collectd-config
 Version:        XXX
 Release:        XXX
@@ -21,7 +24,7 @@ Requires:       python3dist(ansible)
 Ansible role for creating collectd configs
 
 %prep
-%autosetup -n ansible-role-collectd-config-%{upstream_version} -S git
+%autosetup -n %{tarsources}-%{upstream_version} -S git
 
 
 %build
