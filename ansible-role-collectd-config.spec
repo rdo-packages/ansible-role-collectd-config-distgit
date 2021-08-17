@@ -21,7 +21,7 @@ Requires:       python3dist(ansible)
 Ansible role for creating collectd configs
 
 %prep
-%autosetup -n ansible-role-collectd-config-%{upstream_version} -S git
+%autosetup -n collectd-config-ansible-role-%{upstream_version} -S git
 
 
 %build
