@@ -3,8 +3,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           ansible-role-collectd-config
-Version:        XXX
-Release:        XXX
+Version:        0.0.1
+Release:        1%{?dist}
 Summary:        Ansible role for creating collectd configs
 
 License:        ASL 2.0
@@ -21,7 +21,7 @@ Requires:       python3dist(ansible)
 Ansible role for creating collectd configs
 
 %prep
-%autosetup -n ansible-role-collectd-config-%{upstream_version} -S git
+%autosetup -n collectd-config-ansible-role-%{upstream_version} -S git
 
 
 %build
@@ -39,4 +39,7 @@ cp -r ./* %{buildroot}%{_datadir}/ansible/roles/collectd_config
 %exclude %{_datadir}/ansible/role/collectd_config/tests/*
 
 %changelog
+* Tue Aug 17 2021 RDO <dev@lists.rdoproject.org> 0.0.1-1
+- Update to 0.0.1
+
 
