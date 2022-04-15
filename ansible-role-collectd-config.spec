@@ -6,8 +6,8 @@
 %{!?dlrn: %global tarsources collectd-config-ansible-role}
 
 Name:           ansible-role-collectd-config
-Version:        XXX
-Release:        XXX
+Version:        0.0.2
+Release:        1%{?dist}
 Summary:        Ansible role for creating collectd configs
 
 License:        ASL 2.0
@@ -42,4 +42,7 @@ cp -r ./* %{buildroot}%{_datadir}/ansible/roles/collectd_config
 %exclude %{_datadir}/ansible/role/collectd_config/tests/*
 
 %changelog
+* Fri Apr 15 2022 RDO <dev@lists.rdoproject.org> 0.0.2-1
+- Update to 0.0.2
+
 
